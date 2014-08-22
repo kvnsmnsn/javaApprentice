@@ -44,7 +44,7 @@ public class RunEm
     }
     else
     { SY_O.println( "Usage is");
-      SY_O.println( "  java <label> <number>*");
+      SY_O.println( "  java <label> <ratio> <number>*");
     }
   }
 }
