@@ -18,6 +18,7 @@ public class UseEm
     SY_O.println( "(car instanceof Drivable): " + (car instanceof Drivable));
     SY_O.println( "(bo  instanceof Drivable): " + (bo  instanceof Drivable));
     veh = car;
+    SY_O.println( "(veh instanceof Car     ): " + (veh instanceof Car));
     car = (Car) veh;
   }
 }
