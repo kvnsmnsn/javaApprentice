@@ -28,4 +28,14 @@ public class DouIntStrLon extends IntStrLon
   {
     this( 0L, db);
   }
+
+  public int add ( int operand)
+  {
+    return igr + operand;
+  }
+
+  public double add ( double operand)
+  {
+    return dou + operand;
+  }
 }
